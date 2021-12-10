@@ -876,13 +876,14 @@ footer .conteiner-content form {
   height: 15px;
   border: 2px solid #212121;
   border-radius: 2px;
+  margin-right: 5px;
   margin-left: 5px;
 }
 
 .checkbox:checked + .ion {
   background-color: var(--color-but);
   border-color: var(--color-but);
-  background-image: url(./img/iconcheck.svg);
+  background-image: url(/docs/img/iconcheck.svg);
   background-size: contain;
   background-origin: border-box;
 }
