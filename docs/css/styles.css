@@ -886,9 +886,10 @@ footer .conteiner-content form {
 }
 
 .checkbox:checked + .ion {
+  border-color: transparent;
   background-color: var(--color-but);
   border-color: var(--color-but);
-  background-image: url(/docs/img/9.jpg);
+  background-image: url("../img/iconcheck.svg");
   background-size: contain;
   background-origin: border-box;
 }
