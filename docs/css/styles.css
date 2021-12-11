@@ -888,7 +888,7 @@ footer .conteiner-content form {
 .checkbox:checked + .ion {
   background-color: var(--color-but);
   border-color: var(--color-but);
-  background-image: url(./img/iconcheck.svg);
+  background-image: url(/docs/img/iconcheck.svg);
   background-size: contain;
   background-origin: border-box;
 }
