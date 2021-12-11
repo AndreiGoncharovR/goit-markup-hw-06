@@ -757,8 +757,11 @@ form a {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  letter-spacing: 0.03em;
+
   color: var(--another-text);
   align-items: center;
+  justify-content: center;
 }
 
 .modal .active-button {
@@ -840,6 +843,7 @@ form a {
   background-color: var(--back-color-dark);
   border-color: rgba(255, 255, 255, 0.3);
 
+  color: var(--back-color-light);
   border-radius: 4px;
   margin: 0px;
 }
@@ -872,6 +876,7 @@ footer .conteiner-content form {
 
 .ion {
   display: inline-block;
+
   width: 15px;
   height: 15px;
   border: 2px solid #212121;
@@ -893,4 +898,18 @@ footer .conteiner-content form {
   appearance: none;
   -moz-appearance: none;
   position: absolute;
+}
+
+.checkbox:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
 }
